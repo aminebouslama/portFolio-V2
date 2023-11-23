@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio amine</title>
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--pour le styles-->
+    <link rel="stylesheet" href="./styles.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!--JS methode pour submitte buttom-->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+          (function(){
+      emailjs.init("JQ3ZVy98UGKfFhPE3");
+          })();
+    </script>
+</head>
+<body>
+    <!--header starte-->
+    <header  id="home">
+        <div class="navbar">
+          <nav>
+            <a href="#home" id="logo">Amine Bouslama</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header-content">
+            <div class="header-text">
+              <p><span class="text-primary">HI There ,I'm</span></p>
+              <h1>Amine Bouslama</h1>
+              <p class="title">Frontend web developer</p>
+              <div class="social">
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-facebook"></i></a> <!--taarget blank == ces pour afficher le site dans un nouvelle fennetre et pas dans la meme fenetre-->
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-linkedin"></i></i></i></a>
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-github"></i></i></i></a>
+                <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+              </div>
+              <a href="#about" class="btn-primary">About Me <i class="fa-solid fa-circle-arrow-down"></i></a>
+            </div>
+            <img src="./amine.png" alt="Amine Bouslama">
+        </div>
+    </header>
+    <!--end header -->
+    <main>
+        <!--aboute section strarte -->
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <hr>
+                <div class="about-content">
+                    <div class="col-1">
+                      <H3>I'm<span class="text-primary"> Amine Bouslama,</span> a Web developer</H3>
+                      <p>I'm a front-end web developer,I'm passion for creating visually appealing and user-friendly web</p>
+                      <p>I have also gained a solid foundation in HTML,CSS,and JAVAScript. I am always eager to learn new 
+                        technologies ans techniques to enbance my skillset</p>
+                    </div>
+                    <div class="col-2">
+                        <p><b>Age </b> 25ans</p>
+                        <p><b>Email:</b> bouslama213@gmail.com</p>
+                        <p><b>Place </b> Maamoura kenitra</p>
+                    </div>
+                </div>  
+            </div>
+        </section>
+        <!--end section about -->
+        <!--starte section skills-->
+         <section id="skills">
+            <div class="container"> 
+                <h2>
+                    <i class="fa-solid fa-laptop-code"></i> Skilles &amp; <span class="text-primary">Abilities</span>
+                </h2>
+                <hr>
+                <div class="skills-content">
+                    <div class="row">
+                       <div class="item">
+                        <img src="html.png" alt="HTML">
+                        <p>HTML</p>
+                       </div> 
+                       <div class="item">
+                        <img src="css.png" alt="CSS">
+                        <p>CSS</p>
+                       </div> 
+                       <div class="item">
+                        <img src="javascript.png" alt="JAVAScript">
+                        <p>JAVAScript</p>
+                       </div> 
+                       <div class="item">
+                        <img src="python.png" alt="Python">
+                        <p>Python</p>
+                       </div> 
+                       <div class="item">
+                        <img src="Github.png" alt="Github">
+                        <p>Github</p>
+                       </div> 
+                       <div class="item">
+                        <img src="wordpress.png" alt="Wordpress">
+                        <p>Wordpress</p>
+                       </div> 
+                       <div class="item">
+                        <img src="c programmation.png" alt="C Programming">
+                        <p>C Programming</p>
+                       </div> 
+                       <div class="item">
+                        <img src="c++.png" alt="C++">
+                        <p>C++</p>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+
+         </section>
+        <!--end section skills-->
+        <!--section service-->
+        <section id="services">
+            <div class="container">
+                <div class="heading ">
+                 <img src="service.png" alt="Services">
+                 <h2>My<span class="text-primary">Services</span></h2>
+                </div>
+                <div class="row">
+                    <div class="item">
+                        <img src="web development.png" alt="web devolepment">
+                        <h3>Web developpment</h3>
+                        <p>I can build a website y using HTML,css,and JavaScript</p>
+                    </div>
+                    <div class="item">
+                        <img src="resoonsive design.png" alt="responsive">
+                        <h3>Responsive Design</h3>
+                        <p>Your website will be 100% responsive for all devices:tablets and smart phones</p>
+                    </div>
+                    <div class="item">
+                        <img src="creative design.png" alt="Design">
+                        <h3>Creative design </h3>
+                        <p>I can edit your current website by adding a new content to make it much better</p>
+                    </div>
+                    <div class="item">
+                        <img src="web ideas.png" alt="Ideas">
+                        <h3>Web Ideas</h3>
+                        <p>I could turn your ideas into a real projects with high quality</p>
+                    </div>
+                    <div class="item">
+                        <img src="retouch.png " alt="Retouch">
+                        <h3>Retouch</h3>
+                        <p>I can help you by redesign your current website to looks much better</p>
+                    </div>
+                    <div class="item">
+                        <img src="support.png" alt="web devolepment">
+                        <h3>Support</h3>
+                        <p>Support is available if you wana make any changes for your website after dilivering it</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!--end section service -->
+        <!--Portfolio starte -->
+        <section id="Portfolio">
+            <div class="container">
+                <h2>
+                    <i class="fa-solid fa-laptop-code"></i> My<span class="text-primary"> Portfolio</span>
+                </h2>
+                <hr>
+                <div class="row">
+                    <!--Portfolio 1-->
+                    <div class="item">
+                       <img src="neon.png">
+                       <div class="item-content">
+                        <h3>Agency WebSite</h3>
+                        <a href="https://neondigital.ma/" target="_blank">Visit WebSite</a>
+                       </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--portfolio end -->
+        <!--contact start-->
+        <section id="contact">
+            <div class="container">
+                <h2><i class="fa-solid fa-headset"></i>Get In<span class="text-primary">Touch</span></h2>
+            </div>
+            <div class="row">
+                <img src="PngItem_2459510.png" alt="Get In Touch">
+             <!--pour la creation d'un tableau des input -->
+                <div id="case">
+                <input type="text" name="Name" id="Name" placeholder="Name" required>
+                <input type="email" name="Email" id="Email" placeholder="Email" required>
+                <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Messgage"></textarea>
+                <button type="submit" class="btn-pro" onclick="sendMail()">Submit</button>
+                </div>
+               
+        </section>
+        <!--contact end -->
+    </main>
+    <footer id="footer">
+        <p>&copy; 2023 | All rights reserved</p>
+    </footer>
+</body>
+</html>
